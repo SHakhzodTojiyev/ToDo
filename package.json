@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "ToDo List",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/assets/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHakhzodTojiyev/ToDo.git"
+  },
+  "keywords": [
+    "todo",
+    "html",
+    "tailwindcss",
+    "JavaScript"
+  ],
+  "author": "shakhzodtojiyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHakhzodTojiyev/ToDo/issues"
+  },
+  "homepage": "https://github.com/SHakhzodTojiyev/ToDo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
